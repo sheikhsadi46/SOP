@@ -22,7 +22,7 @@ def SOP(lst):
     x=lst3
     print(x)
     return x
-        
-sopIn = "Xy+xY+xyZ"
+
+sopIn = input('Enter Expression: ') #sopIn = "Xy+xY+xyZ"
 lst = sopIn.split('+')
 a=SOP(lst)
